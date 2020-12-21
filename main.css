@@ -1,0 +1,14 @@
+main{
+    width: 1000px;
+    margin-left: calc((100% - 1000px) / 2);
+    background-color: aquamarine;
+}
+    header {}
+        img {}
+        nav {}
+            a {}
+    section {}
+        div {}
+            h1{}
+            p{}
+        img {}
