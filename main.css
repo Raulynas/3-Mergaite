@@ -1,14 +1,48 @@
-main{
-    width: 1000px;
-    margin-left: calc((100% - 1000px) / 2);
-    background-color: aquamarine;
+body {margin: 0;
+    background-color: #F8F8F8;
+    font-family: 'Roboto', sans-serif;
 }
-    header {}
-        img {}
-        nav {}
-            a {}
-    section {}
-        div {}
-            h1{}
-            p{}
-        img {}
+    main {
+        width: 1000px;
+        margin-left: calc((100% - 1000px) / 2);
+        
+    }
+        header { display: inline-block;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+            header > img {display: inline-block;
+                float: left;
+                margin-left: 30px;
+                width: 40px;
+            }
+            nav {display: inline-block;
+                float: right;
+            }
+    section {display: inline-block;
+            margin-top: 50px;
+            width: 100%;
+            }
+
+        div {display: inline-block;
+            float: left;
+            width: 40%;
+            margin-left: 5%;
+        }
+            h1 {
+                display: inline-block;
+                font-size: 80px;
+                width: 100%;
+                margin-bottom: 0;
+                }
+            p {display: inline-block;
+                width: 100%;
+                font-size: 30px;
+                margin-top: 0;
+            }
+            section > img {display: inline-block;
+                float: left;
+                width: 40%;
+                margin-left: 10%;
+            }
