@@ -10,16 +10,48 @@ body {margin: 0;
         header { display: inline-block;
             margin-top: 20px;
             width: 100%;
+
+            background-color: yellow;
         }
 
             header > img {display: inline-block;
                 float: left;
                 margin-left: 30px;
                 width: 50px;
+                
             }
             nav {display: inline-block;
                 float: right;
             }
+                a {
+                    display: inline-block;
+                    float: left;
+                    text-decoration: none;
+                    line-height: 20px;
+                    font-size: 16px;
+                    padding: 5px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    margin-top: 10px;
+                    color: #999;
+                }
+                nav > a:last-of-type{
+                    text-transform: uppercase;
+                    border: 3px solid rgb(158, 143, 143);
+                    margin-top:7px;
+                    border-radius: 20px;
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+                nav > a:last-of-type:hover {
+                    text-decoration: none;
+                    background-color: #999;
+                    color: #F8F8F8;
+                    font-weight: bold;
+                }
+
+
     section {display: inline-block;
             margin-top: 50px;
             width: 100%;
