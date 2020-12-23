@@ -10,8 +10,6 @@ body {margin: 0;
         header { display: inline-block;
             margin-top: 20px;
             width: 100%;
-
-            background-color: yellow;
         }
 
             header > img {display: inline-block;
