@@ -6,7 +6,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at https://raulynas.github.io/3-Mergaite
 
-Design: [Error page](https://raulynas.github.original-design.jpg)
+Design: [Error page](https://github.com/Raulynas/3-Mergaite/blob/master/Original-design.jpg)
 
 ## Project features
 
